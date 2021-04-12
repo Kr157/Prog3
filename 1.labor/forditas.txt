@@ -1,0 +1,14 @@
+Mivel nem minden mappam neve teljesen egyertelmu, így inkabb osszefoglalom ebben a dokumentumban,
+mivel Teams-en keson lattam a kerest.
+1.feladat a "Hello"
+2.feladat a "sample" mappában van.
+3.feladat "hello.jar"
+4.feladat "Hello_w" mappa
+5.feladat "Calc" mappa, de ez tartalmazza a 6.feladat jar file-t is.
+7.feladat "calculator" mappa
+
+a parancssorban a parancsokat a segédlet alapjan irtam meg, egyetlen kivetellel,
+mely:
+"jar cfm hello.jar MANIFEST.mf sample/calc/*.class sample/echo/*.class sample/prog/*.class"
+volt, és itt annyi volt a változás, hogy a fájlnev nem stimmelt, így ez lett:
+"jar cfm hello.jar MANIFEST.mf.txt sample/calc/*.class sample/echo/*.class sample/prog/*.class"
